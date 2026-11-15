@@ -6,4 +6,8 @@
 #define HASH 997// 배열 크기(소수)
 #define HASH_PRIME 991// HASH 보다 다음으로 작은 소수
 #define LF 0.7// 적재율 상한
+
+int* createTable(int m);
+void printTable(int table[], int m);
+int hashInsert(int table[], int key);
 #endif // !_HASHTABLE_H

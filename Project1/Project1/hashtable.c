@@ -12,11 +12,6 @@ void printTable(int table[], int m) {
 		printf("key[%2d] : %d\n", i, table[i]);
 }
 
-void rehash(int table[])
-{
-	
-}
-
 int hashInsert(int table[], int key)
 {
 	int i = 0;
@@ -25,9 +20,12 @@ int hashInsert(int table[], int key)
 	do {
 		// ------ 해시 함수들 ------
 
-		address = (key + i) % HASH;// 1. (1차원)선형 조사
-		//address = (key + (i * i)) % HASH;// 2. 이차원 조사
-		//address = (key + i * (1 + (key % HASH_PRIME))) % HASH;// 3. 더블 해싱
+		// 1. (1차원)선형 조사
+		//address = (key + i) % HASH;
+		// 2. 이차원 조사
+		//address = (key + (i * i)) % HASH;
+		// 3. 더블 해싱
+		address = (key + i * (1 + (key % HASH_PRIME))) % HASH;
 
 		// ------ 해시 함수들 ------
 
