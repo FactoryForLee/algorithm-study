@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="AVLTree/AVLTree.vcxproj" Id="6f49bb50-a1b2-4d0b-b27b-abc350a07a6e" />
+</Solution>
