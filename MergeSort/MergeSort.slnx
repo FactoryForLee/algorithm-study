@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MergeSort/MergeSort.vcxproj" Id="28f2fab4-bcd5-471b-b84c-b6871b75a04e" />
+</Solution>

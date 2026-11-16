@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="heapsort/heapsort.vcxproj" Id="ea81979d-c49d-458f-8d31-60571b7a724d" />
+</Solution>
